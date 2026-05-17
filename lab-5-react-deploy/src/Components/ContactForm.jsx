@@ -6,7 +6,7 @@ function ContactForm() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsOpen(true);
-    }, 5000);
+    }, 60000);
 
     return () => clearTimeout(timer);
   }, []);
