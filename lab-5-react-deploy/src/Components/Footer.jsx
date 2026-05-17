@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import logo3 from "./images/iktalogo.jpg";
-import logo2 from "./images/16833522_10154869194603787_1517635754_o-1-1024x971.png";
+import logo2 from "../images/iktalogo.jpg";
 
 function Footer() {
   const [deviceInfo, setDeviceInfo] = useState({
