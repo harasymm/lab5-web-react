@@ -33,7 +33,7 @@ function Footer() {
   }, []);
 
   return (
-    <footer className="bg-[#333] text-white p-5 rounded-b-2xl">
+    <footer className="bg-[#333] max-w-[210mm] text-white p-5 rounded-b-2xl">
 
     <div className="flex items-center justify-between">
       

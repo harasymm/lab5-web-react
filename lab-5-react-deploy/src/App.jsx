@@ -85,8 +85,8 @@ function App() {
           <div
             className={
               theme === "dark"
-                ? "max-w-3xl mx-auto bg-gray-800 p-3 rounded-t-2xl shadow-lg "
-                : "max-w-3xl mx-auto bg-white p-3 rounded-t-2xl shadow-lg"
+                ? "max-w-3xl max-w-[210mm] mx-auto bg-gray-800 p-3 rounded-t-2xl shadow-lg "
+                : "max-w-3xl max-w-[210mm] mx-auto bg-white p-3 rounded-t-2xl shadow-lg"
             }
           >
             <Header/>
