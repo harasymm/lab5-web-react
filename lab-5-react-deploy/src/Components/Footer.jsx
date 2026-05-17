@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import logo3 from "./images/iktalogo.jpg";
+import logo2 from "./images/16833522_10154869194603787_1517635754_o-1-1024x971.png";
 
 function Footer() {
   const [deviceInfo, setDeviceInfo] = useState({
@@ -36,7 +38,7 @@ function Footer() {
     <div className="flex items-center justify-between">
       
       <img
-        src="src/images/iktalogo.jpg"
+        src={logo3}
         alt="IKTA Logo"
         className="w-[90px] ml-20 rounded-full"
       />
@@ -58,7 +60,7 @@ function Footer() {
       </div>
 
       <img
-        src="src/images/arton141.png"
+        src={logo2}
         alt="LPNU Logo"
         className="w-[90px] mr-20 rounded-full bg-white"
       />

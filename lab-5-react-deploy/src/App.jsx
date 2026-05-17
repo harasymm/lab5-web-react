@@ -9,6 +9,8 @@ import Footer from "./Components/Footer";
 import Reviews from "./Components/Reviews";
 import ContactForm from "./Components/ContactForm";
 import { useEffect, useState } from "react";
+import logo1 from "./images/16833522_10154869194603787_1517635754_o-1-1024x971.png";
+import logo2 from "./images/arton141.png";
 
 function App() {
   const [theme, setTheme] = useState("");
@@ -45,7 +47,7 @@ function App() {
         </button>
         <div className="bg-white">
               <img
-                src="src/images/16833522_10154869194603787_1517635754_o-1-1024x971.png"
+                src={logo1}
                 alt="LPNU"
                 className={`
                   absolute
@@ -61,7 +63,7 @@ function App() {
               />
 
               <img
-                src="src/images/arton141.png"
+                src={logo2}
                 alt="LPNU"
                 className={`
                   absolute
