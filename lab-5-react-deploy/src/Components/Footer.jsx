@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo3 from "./images/iktalogo.jpg";
+import logo3 from "../images/iktalogo.jpg";
 import logo2 from "../images/iktalogo.jpg";
 
 function Footer() {
